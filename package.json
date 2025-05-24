@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
+  "scripts": { "start": "node app.js",
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
@@ -72,12 +72,27 @@
     "eslint": "^9.9.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
+    "gh-pages": "^6.3.0",
     "globals": "^15.9.0",
     "lovable-tagger": "^1.1.7",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.11",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
-    "vite": "^5.4.1"
-  }
+    "vite": "^5.4.1",
+    "vite-plugin-gh-pages": "^1.0.1"
+  },
+  "description": "**URL**: https://lovable.dev/projects/5f140f15-e5d4-4016-84a8-6acda8924f64",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaribhushanKumar/jail-management-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaribhushanKumar/jail-management-system/issues"
+  },
+  "homepage": "https://github.com/HaribhushanKumar/jail-management-system#readme"
 }
